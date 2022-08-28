@@ -11,7 +11,7 @@ describe('index.js', function() {
   });
   describe('random', function() {
     it("generates a random integer greater than 0", function() {
-      expect(Number.isInteger(random)).to.be.true
+      
       expect(random).to.not.eq(0)
     });
   });
